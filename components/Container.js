@@ -26,12 +26,14 @@ const Container = (props) => {
         ]}
         style={styles(props.bg).gradient}
       >
+        <TouchableOpacity
+          style={styles(props.bg).overlay}
+          onPress={handlePress}
+        >
+          <Text style={styles(props.bg).text}>Hello</Text>
+        </TouchableOpacity>
         {props.children}
       </LinearGradient>
-
-      <TouchableOpacity style={styles(props.bg).overlay} onPress={handlePress}>
-        <Text style={styles(props.bg).text}>Hello</Text>
-      </TouchableOpacity>
     </ScrollView>
   );
 };
