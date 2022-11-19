@@ -16,6 +16,7 @@ exports[`renders correctly 1`] = `
     style={
       {
         "color": "#0B0B0B",
+        "fontFamily": "Inter-Regular",
         "fontSize": 15,
       }
     }
