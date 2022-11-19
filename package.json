@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "jest --updateSnapshot --watch --coverage",
+    "test": "jest --updateSnapshot --watch",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -12,7 +12,6 @@
   "dependencies": {
     "@expo/webpack-config": "0.17.2",
     "expo": "~47.0.6",
-    "expo-app-loading": "^2.1.1",
     "expo-font": "^11.0.1",
     "expo-linear-gradient": "^12.0.1",
     "expo-status-bar": "~1.4.2",
