@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success)
+![](https://img.shields.io/badge/SOORA-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success)
 
 # SOORA NATIVE APP
 
@@ -28,8 +28,8 @@ To get a local copy up and running follow these simple example steps.
 - Change to the desired directory then run the following:
 
   - run `git@github.com:mengiefen/soora-native-app.git`
-  - cd soora-native-app/
-  - git switch dev
+  - cd `soora-native-app/`
+  - `git switch dev`
   - run `yarn install` or `npm install`
 
 ## Running the Application Locally
@@ -40,15 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 > **Try on Expo Snack**
 >
-> ### [Live Demo](https://sheltered-reef-51558.herokuapp.com/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+> ### [Run on Expo](https://snack.expo.dev/@mengefen/github.com-mengiefen-soora-native-app?platform=ios)
 
 ## 📝 License
 
