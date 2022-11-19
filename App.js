@@ -1,8 +1,6 @@
-import { StatusBar } from 'expo-status-bar';-
+import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from 'expo-font';
-import AppLoading from 'expo-app-loading';
-
 import Home from './screen/Home';
 
 export default function App() {
@@ -14,13 +12,10 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   }
   return (
     <View style={styles.container}>
-      <Text style={{ fontFamily: 'Inter-Regular', fontSize: 30 }}>
-        Mengistu Fentaw
-      </Text>
       <StatusBar style="auto" />
       <Home />
     </View>
