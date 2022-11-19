@@ -23,16 +23,22 @@ import MessageBox from '../components/MessageBox';
 import Footer from '../components/Footer';
 import { socialMedia } from '../data/assets';
 import StoreButton from '../components/StoreButton';
+import CustomButton from '../components/CustomButton';
 
 const { width } = Dimensions.get('window');
 
 const Home = () => {
   const [showMessageBox, setShowMessageBox] = useState(false);
+  const [emailReceiveStatus, setEmailReceiveStatus] = useState(false);
   const scrollRef = useRef(null);
 
   const handlePress = () => {
     setShowMessageBox(true);
     scrollRef.current?.scrollTo({ x: 0, y: 450, animated: true });
+  };
+
+  const handleNotify = () => {
+    setEmailReceiveStatus(true);
   };
 
   return (
@@ -67,13 +73,16 @@ const Home = () => {
 
       <View style={styles.inputContainer}>
         <Input style={styles.input} keyboardType="email-address">
-          <Pressable style={styles.notifyButton}>
+          <Pressable style={styles.notifyButton} onPress={handleNotify}>
             <Text style={styles.notifyMeButtonText}>Notify Me</Text>
           </Pressable>
         </Input>
-        <Text style={styles.notifyMessage}>
-          Your email address has been received.
-        </Text>
+        {emailReceiveStatus && (
+          <Text style={styles.notifyMessage}>
+            Your email address has been received.
+          </Text>
+        )}
+
         <Text>Don’t worry, we won’t spam you :)</Text>
       </View>
 
