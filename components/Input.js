@@ -1,6 +1,7 @@
-import { TextInput, StyleSheet, View, Dimensions } from "react-native";
-import React from "react";
-const { width } = Dimensions.get("window");
+import { TextInput, StyleSheet, View } from 'react-native';
+import React from 'react';
+import { width } from '../utils/dimension';
+
 const Input = (props) => {
   return (
     <View style={styles.container}>
@@ -15,6 +16,7 @@ const Input = (props) => {
         onFocus={props.onFocus}
         secureTextEntry={props.secureTextEntry}
         keyboardType={props.keyboardType}
+        testID={props.testID}
       />
       {props.children}
     </View>
@@ -28,20 +30,20 @@ const styles = StyleSheet.create({
     width: width - 40,
     height: 55,
     marginHorizontal: 20,
-    position: "relative",
+    position: 'relative',
   },
 
   input: {
-    borderColor: "#0b0b0bc1",
+    borderColor: '#0b0b0bc1',
     borderWidth: 1,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
     marginBottom: 5,
-    width: "100%",
-    height: "100%",
+    width: '100%',
+    height: '100%',
     borderRadius: 45,
-    position: "absolute",
+    position: 'absolute',
     top: 0,
     left: 0,
   },

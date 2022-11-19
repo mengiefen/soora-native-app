@@ -1,7 +1,6 @@
-import { StyleSheet, Dimensions, Pressable, Image } from 'react-native';
+import { StyleSheet, Pressable, Image } from 'react-native';
 import React from 'react';
-
-const { width } = Dimensions.get('window');
+import { width } from '../utils/dimension';
 
 const StoreButton = (props) => {
   return (

@@ -1,21 +1,15 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  Dimensions,
-  Image,
-  Pressable,
-} from 'react-native';
+import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import React, { useState } from 'react';
 import COPY from '../assets/images/copy1.png';
-const width = Dimensions.get('window').width;
+import { width } from '../utils/dimension';
+
 const MessageBox = () => {
   const [copy, setCopy] = useState(false);
   const handleCopy = () => {
     setCopy(true);
   };
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testId="message-box">
       <Text style={styles.text}>Reach out to us through</Text>
       <View style={styles.emailContainer}>
         <Text style={styles.email}> sooratheapp@gmail.com </Text>
@@ -67,6 +61,7 @@ const styles = StyleSheet.create({
 
   text: {
     fontSize: 12,
+    fontFamily: 'Inter-Regular',
   },
 
   email: {
@@ -74,6 +69,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     lineHeight: 17,
+    fontFamily: 'Inter-Bold',
   },
 
   icon: {

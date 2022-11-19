@@ -30,8 +30,7 @@ const styles = StyleSheet.create({
   button: {
     paddingHorizontal: 14,
     paddingVertical: 10,
-    fontSize: 15,
-    fontWeight: 700,
+    fontWeight: 'bold',
     backgroundColor: '#0B0B0B',
     color: '#fff',
     elevation: 3,
@@ -50,7 +49,7 @@ const styles = StyleSheet.create({
 
   text: {
     color: '#fff',
-    fontSize: 20,
-    fontWeight: 'semibold',
+    fontSize: 16,
+    fontFamily: 'Inter-Bold',
   },
 });

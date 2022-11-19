@@ -1,11 +1,4 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  Dimensions,
-  Pressable,
-  Image,
-} from 'react-native';
+import { StyleSheet, Text, View, Dimensions, Pressable } from 'react-native';
 import React, { useState, useRef } from 'react';
 import Container from '../components/Container';
 import Navbar from '../components/Navbar';
@@ -17,26 +10,26 @@ import {
   GooglePlay,
   AppleStore,
 } from '../data/assets';
-import Line from '../assets/images/line.png';
+
 import SocialIcon from '../components/SocialIcon';
 import MessageBox from '../components/MessageBox';
 import Footer from '../components/Footer';
 import { socialMedia } from '../data/assets';
 import StoreButton from '../components/StoreButton';
-import CustomButton from '../components/CustomButton';
+import CustomText from '../components/CustomText';
 
 const { width } = Dimensions.get('window');
 
 const Home = () => {
   const [showMessageBox, setShowMessageBox] = useState(false);
-  const [emailReceiveStatus, setEmailReceiveStatus] = useState(false);
+
   const scrollRef = useRef(null);
 
   const handlePress = () => {
     setShowMessageBox(true);
     scrollRef.current?.scrollTo({ x: 0, y: 450, animated: true });
   };
-
+  const [emailReceiveStatus, setEmailReceiveStatus] = useState(false);
   const handleNotify = () => {
     setEmailReceiveStatus(true);
   };
@@ -48,13 +41,7 @@ const Home = () => {
       scrollRef={scrollRef}
     >
       <Navbar handlePress={handlePress} />
-      <View style={styles.textContainer}>
-        <View style={styles.textWrapper}>
-          <Image source={Line} style={styles.line} />
-          <Text style={styles.subheading}> Coming Soon</Text>
-        </View>
-        <Text style={styles.heading}>Bringing Muslims Together</Text>
-      </View>
+      <CustomText headingText="Bringing Muslims Together" />
 
       <View style={styles.storeContainer}>
         <StoreButton storeName="googlePlay" imageUrl={GooglePlay} />
@@ -62,14 +49,7 @@ const Home = () => {
       </View>
 
       <LandingImage image={LandingImage2} />
-
-      <View style={styles.textContainer}>
-        <View style={styles.textWrapper}>
-          <Image source={Line} style={styles.line} />
-          <Text style={styles.subheading}> Coming Soon</Text>
-        </View>
-        <Text style={styles.heading}>Get Notified When we Launch</Text>
-      </View>
+      <CustomText headingText="Get Notified When we Launch" />
 
       <View style={styles.inputContainer}>
         <Input style={styles.input} keyboardType="email-address">
@@ -82,7 +62,6 @@ const Home = () => {
             Your email address has been received.
           </Text>
         )}
-
         <Text>Don’t worry, we won’t spam you :)</Text>
       </View>
 
@@ -113,44 +92,6 @@ const styles = StyleSheet.create({
     width: 15,
     height: 15,
     marginLeft: 8,
-  },
-
-  textContainer: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: width - 64,
-    marginHorizontal: 32,
-    textAlign: 'center',
-    marginTop: 44,
-  },
-
-  textWrapper: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 20,
-  },
-
-  line: {
-    width: 17,
-    height: 3,
-  },
-
-  subheading: {
-    fontSize: 20,
-    color: '#0B0B0B',
-  },
-
-  heading: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    color: '#0B0B0B',
-    marginTop: 8,
-    lineHeight: 50,
-    textAlign: 'center',
   },
 
   storeContainer: {

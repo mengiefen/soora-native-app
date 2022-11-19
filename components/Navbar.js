@@ -1,10 +1,9 @@
-import { StyleSheet, Text, Image, View, Dimensions } from 'react-native';
+import { StyleSheet, Text, Image, View } from 'react-native';
 import React from 'react';
 import Logo from '../assets/images/logo1.png';
 import ContactArrow from '../assets/images/contact-icon.png';
 import CustomButton from './CustomButton';
-
-const { width } = Dimensions.get('window');
+import { width } from '../utils/dimension';
 
 const Navbar = (props) => {
   const { handlePress } = props;

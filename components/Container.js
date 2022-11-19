@@ -1,15 +1,7 @@
-import {
-  StyleSheet,
-  View,
-  Dimensions,
-  Text,
-  ScrollView,
-  TouchableOpacity,
-} from 'react-native';
+import { StyleSheet, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
-
-const { width, height } = Dimensions.get('window');
+import { width, height } from '../utils/dimension';
 
 const Container = (props) => {
   const handlePress = () => {
@@ -29,8 +21,9 @@ const Container = (props) => {
         <TouchableOpacity
           style={styles(props.bg).overlay}
           onPress={handlePress}
+          testID="overlay"
         >
-          <Text style={styles(props.bg).text}>Hello</Text>
+          <Text style={styles(props.bg).text}>Overlay</Text>
         </TouchableOpacity>
         {props.children}
       </LinearGradient>
