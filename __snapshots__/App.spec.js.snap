@@ -1,0 +1,711 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      {
+        "display": "flex",
+        "filter": "blur(344.294px)",
+        "minHeight": 1334,
+        "position": "relative",
+        "width": 750,
+      }
+    }
+  >
+    <View>
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              440097176,
+              440097176,
+              234815488,
+            ],
+            "endPoint": undefined,
+            "locations": undefined,
+            "startPoint": undefined,
+          }
+        }
+        style={
+          {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": null,
+              "display": "none",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "top": 0,
+              "width": 750,
+              "zIndex": 1,
+            }
+          }
+          testID="overlay"
+        >
+          <Text>
+            Overlay
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 50,
+              "paddingHorizontal": 14,
+              "width": 750,
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              {
+                "height": 20,
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessibilityLabel="Contact us button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#0B0B0B",
+                  "borderRadius": 4,
+                  "color": "#fff",
+                  "display": "flex",
+                  "elevation": 3,
+                  "flexDirection": "row",
+                  "fontWeight": "bold",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 14,
+                  "paddingVertical": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#fff",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+               
+              Contact us
+               
+            </Text>
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 15,
+                  "marginLeft": 8,
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginHorizontal": 32,
+              "marginTop": 60,
+              "textAlign": "center",
+              "width": 686,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginTop": 20,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 3,
+                  "width": 17,
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": "#0B0B0B",
+                  "fontSize": 20,
+                }
+              }
+            >
+               Coming Soon
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#0B0B0B",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "lineHeight": 50,
+                "marginTop": 8,
+                "textAlign": "center",
+              }
+            }
+          >
+            Bringing Muslims Together
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginHorizontal": 32,
+              "marginTop": 24,
+              "textAlign": "center",
+              "width": 686,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 74.61538461538461,
+                  "marginRight": 16,
+                  "width": 258.07692307692304,
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 74.61538461538461,
+                  "width": 228.51923076923077,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 30,
+              "padding": 5,
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              {
+                "filter": "drop-shadow(0px 2.3304px 11.652px rgba(30, 30, 30, 0.15))",
+                "height": 763.9615384615386,
+                "width": 673.0769230769231,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginHorizontal": 32,
+              "marginTop": 60,
+              "textAlign": "center",
+              "width": 686,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginTop": 20,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 3,
+                  "width": 17,
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": "#0B0B0B",
+                  "fontSize": 20,
+                }
+              }
+            >
+               Coming Soon
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#0B0B0B",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "lineHeight": 50,
+                "marginTop": 8,
+                "textAlign": "center",
+              }
+            }
+          >
+            Get Notified When we Launch
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "height": 55,
+                "marginHorizontal": 20,
+                "position": "relative",
+                "width": 710,
+              }
+            }
+          >
+            <TextInput
+              keyboardType="email-address"
+              style={
+                {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#0b0b0bc1",
+                  "borderRadius": 45,
+                  "borderWidth": 1,
+                  "height": "100%",
+                  "left": 0,
+                  "marginBottom": 5,
+                  "paddingHorizontal": 20,
+                  "paddingVertical": 10,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                }
+              }
+            />
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#0B0B0B",
+                  "borderRadius": 45,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 45,
+                  "justifyContent": "center",
+                  "position": "absolute",
+                  "right": 5,
+                  "top": 5,
+                  "width": 100,
+                  "zIndex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Notify Me
+              </Text>
+            </View>
+          </View>
+          <Text>
+            Don’t worry, we won’t spam you :)
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 30,
+              "padding": 5,
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              {
+                "filter": "drop-shadow(0px 2.3304px 11.652px rgba(30, 30, 30, 0.15))",
+                "height": 763.9615384615386,
+                "width": 673.0769230769231,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "borderBottomColor": "#0B0B0B",
+              "borderBottomWidth": 1,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 100,
+              "paddingBottom": 20,
+              "width": 750,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F2F2F2",
+                "borderColor": "#0B0B0B",
+                "borderRadius": 45,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "marginHorizontal": 8,
+                "width": 45,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F2F2F2",
+                "borderColor": "#0B0B0B",
+                "borderRadius": 45,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "marginHorizontal": 8,
+                "width": 45,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F2F2F2",
+                "borderColor": "#0B0B0B",
+                "borderRadius": 45,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "marginHorizontal": 8,
+                "width": 45,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F2F2F2",
+                "borderColor": "#0B0B0B",
+                "borderRadius": 45,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "marginHorizontal": 8,
+                "width": 45,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F2F2F2",
+                "borderColor": "#0B0B0B",
+                "borderRadius": 45,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "marginHorizontal": 8,
+                "width": 45,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginVertical": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#0B0B0B",
+                "fontSize": 15,
+              }
+            }
+          >
+            Copyright © 2022 Soora. All rights reserved
+          </Text>
+        </View>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </RCTScrollView>
+</View>
+`;

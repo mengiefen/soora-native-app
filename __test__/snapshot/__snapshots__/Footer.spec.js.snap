@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginVertical": 15,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#0B0B0B",
+        "fontSize": 15,
+      }
+    }
+  >
+    Copyright © 2022 Soora. All rights reserved
+  </Text>
+</View>
+`;
